@@ -2,16 +2,51 @@
 <html>
 <head>
 
-	<!--Styles-->
+	<!-- Some important things to add to your page. -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+
+	<!-- Styles -->
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	
+	<!-- links -->
+
 	<!--fonts-->
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
+	<!-- title and icon -->
 	<title>Tik Tak Toe</title>
 </head>
 <body>
-	<p>Hello World</p>
+	<div id="divMain">
+		<div id="title">
+			<h1 id="htitle">Tik Tak Toe</h1>
+			<!-- <button class="title-buttons" type="button">About</button> -->
+		</div>
+		<div class="menu-align">
+			<div class="menu-align" id="Menu">
+				<!-- Player X name -->
+				<br><br>
+				<label for="playerx" class="name-player">Player X</label>
+				<br>
+				<input class="input-name" type="text" name="playerx" placeholder="Player X">
+				<br>
+				<!-- Player O name -->
+				<br><br>
+				<label for="playero" class="name-player">Player O</label>
+				<br>
+				<input class="input-name" type="text" name="playero" placeholder="Player O">
+				<br>
+				<button type="button" id="submit-button">PLAY</button>
+			</div>
+		</div>
+		<br>
+		<div class="game-align">
+			<div class="game-align" id="game">
+				
+			</div>
+		</div>
+	</div>
 </body>
 </html>

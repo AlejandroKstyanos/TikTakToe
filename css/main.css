@@ -1,9 +1,83 @@
 html{
 	background-color: #373333;
-	font-family: 'Roboto', sans-serif;
+	font-family     : 'Roboto', sans-serif;
 
 }
 
-p{
-	color: #ffffff;
+/*Title Section*/
+#title{
+	color     : #ffffff;
+	text-align: center;
 }
+
+#htitle{
+	margin: 0px;
+	font-size: 65px;
+	display: inline-block;
+}
+
+/*.title-buttons{
+	background-color: #ffffff;
+	font-size       : 20px;
+	border-color    : #3C99C8FF;
+	border-width    : 4px;
+	border-radius   : 3px;
+	display         : inline-block;
+	text-align      : center;
+	position        : absolute;
+	right           : 100px;
+	top             : 10px;
+}
+*/
+
+
+
+/*Menu-Section*/
+
+.menu-align{
+	text-align : center;
+	margin-top : 40px;
+	display    : inline-block;
+	inline-size: -webkit-fill-available;
+}
+
+
+#Menu{
+	background-color: 	#584A4AEE;
+	width           : 490px;
+	height          : 380px;
+	border-radius   : 8px;
+	border-color    : #211C1C8C;
+}
+
+.name-player{
+	color     : #ffffff;
+	font-size : 25px;
+}
+
+.input-name{
+	height    : 26px;
+	width     : 200px;
+	margin-top: 20px;
+	font      : inherit;
+}
+
+#submit-button{
+	margin-top      : 25px;
+	border-radius   : 8px;
+	background-color: #ffffff;
+	color           : #ffffff;
+	border-color    : #ffffff;
+	width           : 100px;
+	height          : 40px;
+	font            : inherit;
+}
+
+#submit-button:hover{
+	transition-duration: 0.4s;
+	background-color   : #199EE5FF;
+	color              : #ffffff;
+	border-radius      : 8px;
+	border-color       : #199EE5FF;
+}
+
