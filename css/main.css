@@ -1,19 +1,24 @@
+*{
+	margin : 0;
+	padding: 0;
+}
+
 html{
 	background-color: #373333;
 	font-family     : 'Roboto', sans-serif;
 
 }
 
-/*Title Section*/
+/*>>>>>>>Title Section<<<<<<<*/
 #title{
 	color     : #ffffff;
 	text-align: center;
 }
 
 #htitle{
-	margin: 0px;
+	margin   : 0px;
 	font-size: 65px;
-	display: inline-block;
+	display  : inline-block;
 }
 
 /*.title-buttons{
@@ -32,12 +37,13 @@ html{
 
 
 
-/*Menu-Section*/
+/*>>>>>>>Menu-Section<<<<<<<*/
 
 .menu-align{
 	text-align : center;
 	margin-top : 40px;
 	display    : inline-block;
+	display    : none;
 	inline-size: -webkit-fill-available;
 }
 
@@ -56,10 +62,11 @@ html{
 }
 
 .input-name{
-	height    : 26px;
-	width     : 200px;
-	margin-top: 20px;
-	font      : inherit;
+	height       : 26px;
+	width        : 200px;
+	margin-top   : 20px;
+	font         : inherit;
+	border-radius: 6px;
 }
 
 #submit-button{
@@ -81,3 +88,43 @@ html{
 	border-color       : #199EE5FF;
 }
 
+/*>>>>>>>Game Section<<<<<<<*/
+
+#game-align{
+	margin    : auto;
+	margin-top: 50px;
+	height    : 80%;
+	width     : 60%;
+}
+
+#game{
+	height          : 540px;
+	width           : 540px;
+	background-color: #584A4AEE;
+	border-radius   : 8px;
+	border-color    : #211C1C8C;
+	float           : left;
+}
+
+#game-info{
+	height          : 150px;
+	width           : 250px;
+	background-color: #584A4AEE;
+	border-radius   : 8px;
+	border-color    : #211C1C8C;
+	float           : right;
+	margin-top      : inherit;
+	text-align      : center;
+}
+
+.game-grid{
+	height     : 170px;
+	width      : 170px;
+	margin-left: 5.5px;
+	margin-top : 7px;
+}
+
+.player-p{
+	margin-top: 10px;
+	color     : #ffffffff;
+}
