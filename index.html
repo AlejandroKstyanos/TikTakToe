@@ -24,25 +24,28 @@
 			<h1 id="htitle">Tik Tak Toe</h1>
 			<!-- <button class="title-buttons" type="button">About</button> -->
 		</div>
-		<div class="menu-align">
+		<div class="view menu-align">
 			<div class="menu-align" id="Menu">
 				<!-- Player X name -->
 				<br><br>
 				<label for="playerx" class="name-player">Player X</label>
 				<br>
-				<input class="input-name" type="text" name="playerx" placeholder="Player X">
+				<input class="input-name" type="text" name="playerx" placeholder="Player X" maxlength="22">
 				<br>
 				<!-- Player O name -->
 				<br><br>
 				<label for="playero" class="name-player">Player O</label>
 				<br>
-				<input class="input-name" type="text" name="playero" placeholder="Player O">
+				<input class="input-name" type="text" name="playero" placeholder="Player O" maxlength="22">
 				<br>
-				<button type="button" id="submit-button">PLAY</button>
+				<button type="button" id="play-button">PLAY</button>
 			</div>
 		</div>
 		<br>
-		<div id="game-align">
+		<div class="view" id="game-align">
+			<div id='message-bar'>
+				<h1 id='msg-label'>PLAYER <span style="color: #EC1C24FF;"> X </span> TURN</h1>
+			</div>
 			<div id="game">
 				<button type="button" class="game-grid"></button>
 				<button type="button" class="game-grid"></button>
@@ -57,12 +60,14 @@
 				<button type="button" class="game-grid"></button>
 			</div>
 			<div id="game-info">
-				<p class="player-p"> <- PLAYER X -></p>
-				<p class="player-p" id="playerx-label">player x</p>
-				<p class="player-p"> <- PLAYER O -> </p>
-				<p class="player-p" id="playery-label">player y</p>
+				<p class="player-p"> <- PLAYER <span style="color: #EC1C24FF;"> X </span> -></p>
+				<p class="player-p" id="playerx-label">player X </p>
+				<p class="player-p"> <- PLAYER <span style="color: #4B42C7FF;"> O </span> -> </p>
+				<p class="player-p" id="playero-label">player O </p>
+				<button type="button" id="reset-btn">RESET</button>
 			</div>
 		</div>
 	</div>
+	<script src="js/index.js"></script>
 </body>
 </html>

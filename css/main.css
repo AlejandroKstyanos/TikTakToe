@@ -1,3 +1,4 @@
+/*>>>>>>>Various Section<<<<<<<<*/
 *{
 	margin : 0;
 	padding: 0;
@@ -43,7 +44,6 @@ html{
 	text-align : center;
 	margin-top : 40px;
 	display    : inline-block;
-	display    : none;
 	inline-size: -webkit-fill-available;
 }
 
@@ -69,32 +69,25 @@ html{
 	border-radius: 6px;
 }
 
-#submit-button{
+#play-button{
 	margin-top      : 25px;
 	border-radius   : 8px;
 	background-color: #ffffff;
-	color           : #ffffff;
+	color           : #000000;
 	border-color    : #ffffff;
 	width           : 100px;
 	height          : 40px;
 	font            : inherit;
 }
 
-#submit-button:hover{
-	transition-duration: 0.4s;
-	background-color   : #199EE5FF;
-	color              : #ffffff;
-	border-radius      : 8px;
-	border-color       : #199EE5FF;
-}
-
 /*>>>>>>>Game Section<<<<<<<*/
 
 #game-align{
 	margin    : auto;
-	margin-top: 50px;
+	margin-top: 25px;
 	height    : 80%;
 	width     : 60%;
+	display   : none;
 }
 
 #game{
@@ -107,7 +100,7 @@ html{
 }
 
 #game-info{
-	height          : 150px;
+	height          : 195px;
 	width           : 250px;
 	background-color: #584A4AEE;
 	border-radius   : 8px;
@@ -122,9 +115,42 @@ html{
 	width      : 170px;
 	margin-left: 5.5px;
 	margin-top : 7px;
+	background: border-box;
 }
 
 .player-p{
 	margin-top: 10px;
 	color     : #ffffffff;
+}
+
+#reset-btn{
+	margin-top      : 25px;
+	border-radius   : 8px;
+	background-color: #ffffff;
+	color           : #000000;
+	border-color    : #ffffff;
+	width           : 100px;
+	height          : 40px;
+	font            : inherit;
+}
+
+.playerx {
+	background: url(../img/ecs.png);
+}
+
+.playero {
+	background: url(../img/ou.png);
+}
+
+#message-bar {
+	text-align      : center;
+	color           : #ffffff;
+	background-color: #584A4AEE;
+	border-radius   : 8px;
+	border-color    : #211C1C8C;
+	margin-bottom   : 20px;
+}
+
+.hide {
+	display: none;
 }
