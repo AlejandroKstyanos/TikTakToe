@@ -100,7 +100,7 @@ html{
 }
 
 #game-info{
-	height          : 195px;
+	height          : 200px;
 	width           : 250px;
 	background-color: #584A4AEE;
 	border-radius   : 8px;
@@ -124,6 +124,17 @@ html{
 }
 
 #reset-btn{
+	margin-top      : 25px;
+	border-radius   : 8px;
+	background-color: #ffffff;
+	color           : #000000;
+	border-color    : #ffffff;
+	width           : 100px;
+	height          : 40px;
+	font            : inherit;
+}
+
+#play-again-btn{
 	margin-top      : 25px;
 	border-radius   : 8px;
 	background-color: #ffffff;
